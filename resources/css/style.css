@@ -38,6 +38,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 100;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -117,6 +118,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url('../images/banner-landingpage.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
@@ -294,6 +299,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
